@@ -1,6 +1,4 @@
 import OBR from '@owlbear-rodeo/sdk';
-import dayjs from 'dayjs';
-import relativeTime from 'dayjs/plugin/relativeTime';
 // import createMode from './mode';
 import createAction from './action';
 import createContextItem from './context';
@@ -8,8 +6,6 @@ import ID from '../constants/id.constants';
 import handleTokenMove from './helpers/handleTokenMove';
 import rangeDefaults from './range-band-defaults.json';
 import removeRangeBands from './removeRangeBands';
-
-dayjs.extend(relativeTime);
 
 function createTool() {
    OBR.tool.create({
