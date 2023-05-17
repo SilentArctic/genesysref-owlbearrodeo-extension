@@ -1,0 +1,17 @@
+{
+   "greyscale": true,
+   "scale": 1,
+   "opacity": 0.2,
+   "engaged": 8,
+   "short": 20,
+   "medium": 40,
+   "long": 80,
+   "extreme": 160,
+   "enabled": {
+      "engaged": true,
+      "short": true,
+      "medium": true,
+      "long": true,
+      "extreme": false
+   }
+}
