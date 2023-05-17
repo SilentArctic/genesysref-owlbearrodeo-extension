@@ -2,3 +2,8 @@
    for = "/*"
    [headers.values]
       Access-Control-Allow-Origin = "https://www.owlbear.app"
+
+[[redirects]]
+   from = "/rodeo.extension.*"
+   to = "/rodeo.extension.html"
+   status = 200
