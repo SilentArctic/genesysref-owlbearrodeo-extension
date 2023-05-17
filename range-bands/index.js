@@ -16,6 +16,29 @@ function createTool() {
       shortcut: 'ctrl + B',
       defaultMetadata: rangeDefaults,
    });
+
+   OBR.tool.createMode({
+      id: `${ID}/select`,
+      icons: [{
+         icon: '/hand-back-right.svg',
+         label: 'Move',
+         filter: {
+            activeTools: [`${ID}/range-tool`],
+         },
+      }],
+      preventDrag: { dragging: true },
+      cursors: [
+         {
+            cursor: 'pointer',
+            filter: {
+               target: [{ key: 'layer', value: 'CHARACTER' }],
+            },
+         },
+         {
+            cursor: 'move',
+         },
+      ],
+   });
 }
 
 export default async () => {
