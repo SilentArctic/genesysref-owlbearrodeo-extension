@@ -5,6 +5,7 @@
    "description": "A window into GenesysRef for quick lookups during your game.",
    "icon": "/art.png",
    "manifest_version": 1,
+   "homepage_url": "https://genesysref.netlify.app/api/owlbear-rodeo",
    "action": {
       "title": "GenesysRef",
       "icon": "/icon.png",
