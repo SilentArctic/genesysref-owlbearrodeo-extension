@@ -8,7 +8,7 @@
    "action": {
       "title": "GenesysRef",
       "icon": "/icon.png",
-      "popover": "/",
+      "popover": "/rodeo.extension.html",
       "height": 600,
       "width": 400
    }
