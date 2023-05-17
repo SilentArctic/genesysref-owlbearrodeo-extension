@@ -1,5 +1,4 @@
 import OBR from '@owlbear-rodeo/sdk';
-// import createMode from './mode';
 import createAction from './action';
 import createContextItem from './context';
 import ID from '../constants/id.constants';
@@ -21,7 +20,6 @@ function createTool() {
 
 export default async () => {
    createTool();
-   // createMode();
    createAction();
    createContextItem();
 
